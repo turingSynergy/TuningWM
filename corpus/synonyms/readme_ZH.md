@@ -1,6 +1,6 @@
 # 同义词库文件夹说明
 
-该文件夹用于存储不同语言的同义词库文件，每个文件以 ver_01.jsonl 类似的格式命名，其中每一行存储一对同义词。以下是文件夹结构：
+该文件夹用于存储不同语言的同义词库文件，每个文件以 ver_01.jsonl (or txt) 类似的格式命名，其中每一行存储一对同义词。以下是文件夹结构：
 
 └─synonyms
     ├─EN
@@ -31,3 +31,9 @@ en_synonyms = read_synonyms("synonyms/EN/ver_01.jsonl")
 zh_synonyms = read_synonyms("synonyms/ZH/ver_01.jsonl")
 
 ```
+
+
+## 收集流程
+
+
+<img src=./collection.png width=100% />
